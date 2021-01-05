@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="956.0" styleClass="container-background" stylesheets="@../styles/designStyling.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="200.0" prefWidth="460.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="253.0" prefWidth="460.0" styleClass="rounded-bottom-background" stylesheets="@../styles/designStyling.css">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefWidth="450.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="22.0" styleClass="transparent-background" stylesheets="@../styles/designStyling.css">
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/Previous.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Label alignment="CENTER" prefHeight="97.0" prefWidth="298.0" text="English Premier League">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <textFill>
+                              <RadialGradient centerX="0.5055555555555555" centerY="0.5" radius="0.5">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#9e90d3" offset="1.0" />
+                                 </stops>
+                              </RadialGradient>
+                           </textFill>
+                        </Label>
+                        <Circle fill="#e1190a" radius="7.0" stroke="#e1190a" strokeType="INSIDE" />
+                        <Label alignment="CENTER" layoutX="76.0" layoutY="13.0" prefHeight="40.0" prefWidth="41.0" text="Live" textFill="#bc1405">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="186.0" prefWidth="460.0" spacing="20.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="186.0" prefWidth="223.0" stylesheets="@../styles/designStyling.css">
+                           <children>
+                              <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/LiverpoolLogo.png" />
+                                 </image></ImageView>
+                              <Label alignment="CENTER" prefHeight="27.0" prefWidth="167.0" text="Liverpool FC">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                                 <textFill>
+                                    <RadialGradient centerX="0.5055555555555555" centerY="0.5" radius="0.5">
+                                       <stops>
+                                          <Stop color="BLACK" />
+                                          <Stop color="#9e90d3" offset="1.0" />
+                                       </stops>
+                                    </RadialGradient>
+                                 </textFill>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="186.0" prefWidth="142.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="82.0" prefWidth="86.0" text="0 - 0" textFill="#22115e">
+                                 <font>
+                                    <Font name="System Bold" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="42.0" prefWidth="252.0" text="FT'">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                                 <textFill>
+                                    <RadialGradient centerX="0.5055555555555555" centerY="0.5" radius="0.5">
+                                       <stops>
+                                          <Stop color="BLACK" />
+                                          <Stop color="#9e90d3" offset="1.0" />
+                                       </stops>
+                                    </RadialGradient>
+                                 </textFill>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="186.0" prefWidth="224.0" stylesheets="@../styles/designStyling.css">
+                           <children>
+                              <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/NewcastleLogo.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" prefHeight="26.0" prefWidth="168.0" text="Newcastle">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                                 <textFill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop color="BLACK" />
+                                          <Stop color="#9e90d3" offset="1.0" />
+                                       </stops>
+                                    </LinearGradient>
+                                 </textFill>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="304.0" prefWidth="460.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="110.0" prefWidth="460.0" text="Statistics">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="0.8666666666666667" endY="1.0" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="#484c9abf" offset="0.7766323024054982" />
+                              <Stop color="#484c9abf" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <HBox prefHeight="60.0" prefWidth="460.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="167.0" text="73.1" textFill="#f5f5f5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="Possession %" textFill="#484c9abf">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="177.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="26.9" textFill="#f5f5f5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="89.0" prefHeight="60.0" prefWidth="460.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="167.0" text="4" textFill="#f5f5f5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="Shots on Target" textFill="#484c99bf">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="177.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="2" textFill="#f5f5f5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="145.0" prefHeight="60.0" prefWidth="460.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="167.0" text="11" textFill="#fcfbff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="Shots" textFill="#484c99bf">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="177.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="8" textFill="#f5f5f5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="171.0" prefHeight="60.0" prefWidth="460.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="167.0" text="661" textFill="#f5f5f5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="Passes" textFill="#484c99bf">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="177.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="241" textFill="#f5f5f5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="183.0" prefHeight="60.0" prefWidth="460.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="167.0" text="12" textFill="#f5f5f5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="Corners" textFill="#484c99bf">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="177.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="5" textFill="#f5f5f5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="199.0" prefHeight="60.0" prefWidth="460.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="167.0" text="4" textFill="#f8f7fc">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="Offsides" textFill="#484c99bf">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="316.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="2" textFill="#f5f5f5">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="330.0" prefWidth="460.0" styleClass="rounded-top-background" stylesheets="@../styles/designStyling.css">
+               <children>
+                  <Label alignment="CENTER" prefHeight="57.0" prefWidth="460.0" text="Head-to-Head">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="0.5055555555555555" centerY="0.5" cycleMethod="REFLECT" radius="0.5">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="#8ac7ccbf" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Label>
+                  <HBox prefHeight="31.0" prefWidth="460.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="167.0" text="Wins" textFill="#22115e">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="152.0" text="Played" textFill="#22115e" />
+                        <Label alignment="CENTER" layoutX="177.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="Wins" textFill="#22115e">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="67.0" prefHeight="29.0" prefWidth="460.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="160.0" text="29" textFill="#22115e">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff4f1f" height="8.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="82.0" text="51" textFill="#22115e" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e1e1e" height="7.0" layoutX="149.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+                        <Label alignment="CENTER" layoutX="177.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="11" textFill="#22115e">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Label alignment="CENTER" prefHeight="15.0" prefWidth="460.0" text="Drawn 11" textFill="#22115e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutX="10.0" layoutY="67.0" prefHeight="31.0" prefWidth="460.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="167.0" text="20" textFill="#22115e">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="152.0" text="Home Wins" textFill="#22115e" />
+                        <Label alignment="CENTER" layoutX="177.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="10" textFill="#22115e">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="148.0" prefHeight="31.0" prefWidth="460.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="27.0" prefWidth="167.0" text="9" textFill="#22115e">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="152.0" text="Away Wins" textFill="#22115e" />
+                        <Label alignment="CENTER" layoutX="177.0" layoutY="10.0" prefHeight="27.0" prefWidth="167.0" text="1" textFill="#22115e">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="148.0" prefHeight="51.0" prefWidth="483.0">
+                     <children>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="41.0" prefWidth="499.0" text="Previous Match">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient cycleMethod="REFLECT" endX="0.43333333333333335" endY="1.0" startX="0.7238095238095238">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#8ac7ccbf" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="210.0" prefHeight="80.0" prefWidth="460.0">
+                     <children>
+                        <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="51.0" prefWidth="103.0" text="Liverpool">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient cycleMethod="REFLECT" endX="0.43333333333333335" endY="1.0" startX="0.7238095238095238">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#8ac7ccbf" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/LiverpoolLogo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="72.0" layoutY="10.0" prefHeight="44.0" prefWidth="155.0" styleClass="colored-background" stylesheets="@../styles/designStyling.css" text="3   |   1" textFill="#eceaf5">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="113.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/NewcastleLogo.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="237.0" layoutY="10.0" prefHeight="60.0" prefWidth="103.0" text="Newcastle">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient cycleMethod="REFLECT" endX="0.43333333333333335" endY="1.0" startX="0.7238095238095238">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#8ac7ccbf" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox alignment="TOP_CENTER" prefHeight="689.0" prefWidth="496.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="200.0" styleClass="primary-background" stylesheets="@../styles/designStyling.css">
+               <children>
+                  <Label alignment="CENTER" prefHeight="50.0" prefWidth="100.0" styleClass="highlighted-background" stylesheets="@../styles/designStyling.css" text="LineUp" textFill="#22115e">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="100.0" stylesheets="@../styles/designStyling.css" text="Table">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient cycleMethod="REFLECT" endX="0.43333333333333335" endY="1.0" startX="0.7238095238095238">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="#8ac7ccbf" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="110.0" layoutY="10.0" prefHeight="50.0" prefWidth="100.0" stylesheets="@../styles/designStyling.css" text="Fixtures" textFill="#22115e">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="210.0" layoutY="10.0" prefHeight="50.0" prefWidth="100.0" stylesheets="@../styles/designStyling.css" text="News">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient cycleMethod="REFLECT" endX="0.43333333333333335" endY="1.0" startX="0.7238095238095238">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="#8ac7ccbf" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="310.0" layoutY="10.0" prefHeight="50.0" prefWidth="100.0" stylesheets="@../styles/designStyling.css" text="EPL" textFill="#22115e">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Pane prefHeight="25.0" prefWidth="496.0" />
+            <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="78.0" prefWidth="197.0" style="-fx-background-radius: 40;" styleClass="primary-background" stylesheets="@../styles/designStyling.css">
+               <children>
+                  <ImageView fitHeight="81.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/JurgenKlopp.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <VBox prefHeight="89.0" prefWidth="137.0">
+                     <children>
+                        <Label alignment="BOTTOM_LEFT" prefHeight="70.0" prefWidth="131.0" text="Jurgen Kloop">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient cycleMethod="REFLECT" endX="0.43333333333333335" endY="1.0" startX="0.7238095238095238">
+                                 <stops>
+                                    <Stop color="BLACK" />
+                                    <Stop color="#8ac7ccbf" offset="1.0" />
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="59.0" prefWidth="131.0" text="Coach" textFill="#6d6b72">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </HBox>
+            <ImageView fitHeight="450.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/LiverpoolLineUp.jpg" />
+               </image>
+            </ImageView>
+            <HBox prefHeight="55.0" prefWidth="496.0" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="200.0" styleClass="primary-background" stylesheets="@../styles/designStyling.css">
+               <children>
+                  <Label alignment="CENTER_RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="33.0" prefWidth="193.0" stylesheets="@../styles/designStyling.css" text="LineUp">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient cycleMethod="REFLECT" endX="0.43333333333333335" endY="1.0" startX="0.7238095238095238">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="#8ac7ccbf" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" layoutX="210.0" layoutY="10.0" prefHeight="33.0" prefWidth="333.0" stylesheets="@../styles/designStyling.css" text="LIVERPOOL">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient cycleMethod="REFLECT" endX="0.43333333333333335" endY="1.0" startX="0.7238095238095238">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="#8ac7ccbf" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

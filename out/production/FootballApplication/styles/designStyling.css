@@ -1,0 +1,26 @@
+.white-background{
+    -fx-background-color: #fff;
+}
+.rounded-bottom-background{
+    -fx-background-color: white;
+    -fx-background-radius: 0 0 50 50;
+}
+.transparent-background{
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+.rounded-top-background{
+    -fx-background-color: white;
+    -fx-background-radius: 50 50 0 0;
+}
+.colored-background{
+    -fx-background-color: #8ac7cc ;
+}
+.primary-background{
+    -fx-background-color: white;
+}
+.highlighted-background{
+    -fx-background-color: lightGray;
+}
+.container-background{
+    -fx-background-color: #8ac7cc;
+}
